@@ -31,7 +31,7 @@ export default function MileageRoute() {
           }
           return <FontAwesome name={iconName} size={size} color={color} />;
         },
-        tabBarActiveTintColor: 'green',
+        tabBarActiveTintColor: '#BEA36B',
         tabBarInactiveTintColor: 'gray',
         tabBarStyle: {
           backgroundColor: theme.colors.surface,
