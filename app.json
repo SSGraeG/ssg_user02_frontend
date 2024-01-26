@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "eco-mileage",
-    "slug": "final-rn-fe",
+    "name": "eco mileage 2",
+    "slug": "ssgeco-frontend-02",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -35,7 +35,7 @@
     },
     "extra": {
       "eas": {
-        "projectId": "b97cebcd-cd67-4b58-bbb9-e2342bce49d4"
+        "projectId": "a7b9232d-9894-40f6-b461-993e3c8664ec"
       },
       "networking": {
         "http": {

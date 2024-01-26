@@ -12,7 +12,7 @@
         "env": {
           "APP_ICON": "./assets/icon.png",
           "APP_NAME": "ECO (Test)",
-          "EXPO_PUBLIC_API_URL": "http://3.34.131.103:5000"
+          "EXPO_PUBLIC_API_URL": "https://user02.ssgeco.store/"
         }
       }
     },
@@ -22,7 +22,7 @@
         "buildType": "apk",
         "env": {
           "APP_ICON": "./assets/icon.png",
-          "EXPO_PUBLIC_API_URL": "http://3.34.131.103:5000"
+          "EXPO_PUBLIC_API_URL": "https://user02.ssgeco.store/"
         }
       }
     },
@@ -32,7 +32,7 @@
         "buildType": "apk",
         "env": {
           "APP_ICON": "./assets/icon.png",
-          "EXPO_PUBLIC_API_URL": "http://3.34.131.103:5000"
+          "EXPO_PUBLIC_API_URL": "https://user02.ssgeco.store/"
         }
       }
     }
