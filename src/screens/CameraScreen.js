@@ -49,15 +49,20 @@ export default function CameraScreen({ navigation }) {
           console.log(data.message); // 서버에서 온 데이터 확인
           if (data.message === "성공") {
             // 성공적인 응답 처리
-            Alert.alert(`성공!현재 잔액: ${data.mileage}점`);
-            
+            Alert.alert(
+              '성공!',
+              `현재 등급: ${data.grade}\n적립 마일리지: ${data.point}\n현재 잔액: ${data.mileage}점`,
+            );
+
+
+
             navigation.goBack();
           } else {
 
-            Alert.alert('실패', '더 깨끗이 씻어주세요..');
+            Alert.alert('실패', '라벨을 떼어 주세요..');
             navigation.goBack();
           }
-   
+
         } else {
           Alert.alert('오류', '이미지 전송에 실패했습니다.');
           throw new Error('이미지 전송 실패');
